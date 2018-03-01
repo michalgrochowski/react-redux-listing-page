@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "name": "product1",
+      "variants": [
+        {
+          "variant1": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],
+          "variant2": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],
+          "variant3": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],"variant4": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product2",
+      "variants": [
+        {
+          "variant1": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],
+          "variant2": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],
+          "variant3": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],"variant4": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "product3",
+      "variants": [
+        {
+          "variant1": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],
+          "variant2": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],
+          "variant3": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ],"variant4": [
+            {
+              "color": "#000000",
+              "price": "200"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
