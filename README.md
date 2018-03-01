@@ -1,4 +1,4 @@
-### A simple product list with two dropdowns to filter them, built in React + Redux.***
+### A simple product list with two dropdowns to filter them, built in React + Redux.
 
 Packages used:
 - React (and React DOM),
