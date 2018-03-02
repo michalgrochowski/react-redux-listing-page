@@ -3,7 +3,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore, applyMiddleware, combineReducers } from 'redux';
-import ReduxPromise from 'redux-promise-middleware';
+import ReduxPromise from 'redux-promise';
 
 // Reducers 
 import reducers from "./reducers";
@@ -20,7 +20,7 @@ import registerServiceWorker from './registerServiceWorker';
 // Create store
 const store = createStore(
   combineReducers({
-    reducers
+    ...reducers
   }), 
   applyMiddleware(ReduxPromise)
 );

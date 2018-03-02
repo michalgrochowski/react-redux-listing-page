@@ -4,29 +4,24 @@
       "name": "product1",
       "variants": [
         {
-          "variant1": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],
-          "variant2": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],
-          "variant3": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],"variant4": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ]
+          "color": "#000000",
+          "price": "200",
+          "isSelected": true
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
         }
       ]
     },
@@ -34,59 +29,49 @@
       "name": "product2",
       "variants": [
         {
-          "variant1": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],
-          "variant2": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],
-          "variant3": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],"variant4": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ]
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": true
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
         }
-      ]
+  ]
     },
     {
       "name": "product3",
       "variants": [
         {
-          "variant1": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],
-          "variant2": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],
-          "variant3": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ],"variant4": [
-            {
-              "color": "#000000",
-              "price": "200"
-            }
-          ]
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": false
+        },
+        {
+          "color": "#000000",
+          "price": "200",
+          "isSelected": true
         }
       ]
     }

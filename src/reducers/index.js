@@ -1,8 +1,7 @@
-import { combineReducers } from "redux";
-import fetchData from './fetch_data.js';
+import data from './fetch_data.js';
 
-const rootReducer = combineReducers({
-  data: fetchData
-});
+const rootReducer = {
+  data: data
+};
 
 export default rootReducer;
