@@ -1,0 +1,11 @@
+.filters-panel {
+  @include flex-center-row;
+}
+
+.filters-panel__dropdown {
+  text-align: center;
+  width: 200px;
+  height: 40px;
+  border: 1px solid black;
+  margin: 10px 30px;
+}

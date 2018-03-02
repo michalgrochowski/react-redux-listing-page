@@ -1,0 +1,24 @@
+.product-box {
+  width: 30%;
+  @include flex-center-column;
+}
+
+.product-box__title {
+
+}
+
+.product-box__image {
+
+}
+
+.product-box__price {
+
+}
+
+.product-box__colors {
+  @include flex-center-row;
+}
+
+.product-box__color-button {
+
+}

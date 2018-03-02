@@ -2,75 +2,90 @@
   "products": [
     {
       "name": "product1",
+      "photo": "photo",
       "variants": [
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": true
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         }
       ]
     },
     {
       "name": "product2",
+      "photo": "photo",
       "variants": [
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": true
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         }
   ]
     },
     {
       "name": "product3",
+      "photo": "photo",
       "variants": [
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
+          "photo": "photo",
           "isSelected": true
         }
       ]

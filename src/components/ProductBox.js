@@ -1,20 +1,29 @@
 import React from 'react';
 
 const ProductBox = (props) => {
-  const variants = props.data.variants.map( variant => {
+
+  const price = props.data.map( variant => {
     if (variant.isSelected === true) {
       return (
-        <React.Fragment>
-          <p className="">{variant.color}</p>
-          <p className="">{variant.price}</p>
-        </React.Fragment>
+        <p className="product-box__price">{variant.price}</p>
       )
     }
   })
+
+  const colors = props.data.map( color => {
+    return (
+      <button className="product-box__color-button">{color.color}</button>
+    )
+  })
+
   return (
-    <div className="">
-      <h2 className="">{props.data.name}</h2>
-      {variants}
+    <div className="product-box">
+      <h2 className="product-box__title">{props.name}</h2>
+      <img className="product-box__image" src={props.photo} alt={props.name} />
+      {price}
+      <div className="product-box__colors">
+        {colors}
+      </div>
     </div>
   )
 }
