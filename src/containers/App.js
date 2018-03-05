@@ -11,7 +11,7 @@ import { fetchData } from "../actions/index";
 
 // Static components
 import MainHeader from "../components/MainHeader";
-import Filters from "../components/Filters";
+import Filters from "../containers/Filters";
 import ProductBox from "../components/ProductBox";
 
 
@@ -41,7 +41,7 @@ class App extends Component {
       return (
         <div className="main-container">
           <MainHeader />
-          <Filters />
+          <Filters click={this.props.fetchData}/>
           <div className="main-container__products">
             {products}
           </div>
