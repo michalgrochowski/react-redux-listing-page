@@ -28,11 +28,11 @@ class Filters extends Component {
     return(
       <div className="filters-panel">
         <div className="filters-panel__filter">
-          <button onClick={this.filterByCategory} className="filters-panel__button">Category</button>
+          <button onClick={this.filterByCategory} className="filters-panel__button filters-panel__button--centered">Category</button>
           <DropdownCategory isVisible={this.props.categoriesVisible.categoriesVisible} />
         </div>
         <div className="filters-panel__filter">
-          <button onClick={this.filterByColors} className="filters-panel__button">Color</button>
+          <button onClick={this.filterByColors} className="filters-panel__button filters-panel__button--centered">Color</button>
           <DropdownColors isVisible={this.props.colorsVisible.colorsVisible} />
         </div>
       </div>

@@ -1,17 +1,19 @@
 import React from 'react';
 
+import CheckboxButton from '../containers/CheckboxButton'
+
 const DropdownCategory = (props) => {
   if (props.isVisible === true) {
     return (
       <ul className="filters-panel__dropdown">
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Bags
+          <CheckboxButton value="Bags" />
         </li>
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Belts
+          <CheckboxButton value="Belts" />
         </li>
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Wallets
+          <CheckboxButton value="Wallets" />
         </li>
       </ul>
     )

@@ -1,23 +1,25 @@
 import React from 'react';
 
+import CheckboxButton from '../containers/CheckboxButton'
+
 const DropdownColors = (props) => {
   if (props.isVisible === true) {
     return (
       <ul className="filters-panel__dropdown">
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Red
+          <CheckboxButton value="Red" />
         </li>
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Blue
+          <CheckboxButton value="Blue" />
         </li>
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Green
+          <CheckboxButton value="Green" />
         </li>
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Black
+          <CheckboxButton value="Yellow" />
         </li>
         <li className="filters-panel__option">
-          <button class="filters-panel__checbox"></button> Yellow
+          <CheckboxButton value="Black" />
         </li>
       </ul>
     )
