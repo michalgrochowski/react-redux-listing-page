@@ -3,5 +3,8 @@
 }
 
 .main-header__title {
-
+  text-align: center;
+  @include mq-max(768px) {
+    font-size: 18px;
+  }
 }

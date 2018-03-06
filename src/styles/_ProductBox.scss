@@ -3,6 +3,10 @@
   @include flex-center-column;
   padding: 15px 10px;
   border: 1px solid #e43e3e; 
+  @include mq-max(768px) {
+    width: 90%;
+    margin: 10px 0;
+  }
 }
 
 .product-box__title {
@@ -19,12 +23,22 @@
 
 .product-box__colors {
   @include flex-center-row;
+  @include mq-max(768px) {
+    flex-direction: column;
+  }
 }
 
 .product-box__color-button {
   cursor: pointer;
+  display: block;
   background-color: transparent;
   border: none;
   border-bottom: 1px solid #e43e3e; 
+  color: #333333;
   margin: 0 10px;
+  padding: 5px 5px;
+  &:hover {
+    background-color: #e43e3e;
+    color: #ffffff;
+  }
 }

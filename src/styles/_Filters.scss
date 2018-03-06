@@ -1,6 +1,7 @@
 .filters-panel {
   @include flex-center-row;
-  border-bottom: 3px solid #e43e3e;
+  border-top: 1px solid #e43e3e;
+  border-bottom: 5px solid #e43e3e;
 }
 
 .filters-panel__filter {
@@ -24,7 +25,7 @@
 .filters-panel__dropdown {
   position: absolute;
   z-index: 10;
-  top: 100%;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%);
   width: 200px;

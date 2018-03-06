@@ -1,7 +1,7 @@
 import React from 'react';
 
 const ProductBox = (props) => {
-
+  console.log(props.photo);
   const price = props.data.map( variant => {
     if (variant.isSelected === true) {
       return (

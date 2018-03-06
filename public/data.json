@@ -1,91 +1,91 @@
 {
   "products": [
     {
-      "name": "product1",
-      "photo": "photo",
+      "name": "Simple belt",
+      "photo": "/img/belt.jpg",
       "variants": [
         {
           "color": "#000000",
-          "price": "200",
-          "photo": "photo",
+          "price": "100",
+          "photo": "/img/belt.jpg",
           "isSelected": true
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         }
       ]
     },
     {
-      "name": "product2",
-      "photo": "photo",
+      "name": "Simple wallet",
+      "photo": "/img/wallet.jpg",
       "variants": [
         {
           "color": "#000000",
-          "price": "200",
-          "photo": "photo",
+          "price": "70",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": true
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         }
   ]
     },
     {
-      "name": "product3",
-      "photo": "photo",
+      "name": "Simple bag",
+      "photo": "/img/bag.jpg",
       "variants": [
         {
           "color": "#000000",
-          "price": "200",
-          "photo": "photo",
+          "price": "150",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
           "color": "#000000",
           "price": "200",
-          "photo": "photo",
+          "photo": "/img/belt.jpg",
           "isSelected": true
         }
       ]
