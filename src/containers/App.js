@@ -1,7 +1,6 @@
 // Core dependencies
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
 // Styles
 import '../styles/index.css';
@@ -16,10 +15,6 @@ import ProductBox from "../components/ProductBox";
 
 
 class App extends Component {
-  constructor (props) {
-    super(props);
-  }
-
   componentWillMount() {
     this.props.fetchData();
   }

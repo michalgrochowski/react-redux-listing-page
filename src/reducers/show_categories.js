@@ -11,5 +11,4 @@ export default function(state = {}, action) {
       categoriesVisible: false
     });
   }
-  return state;
 }

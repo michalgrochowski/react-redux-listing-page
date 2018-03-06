@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
 
 // Actions
 import { showCategories, showColors } from "../actions/index";
@@ -26,7 +25,6 @@ class Filters extends Component {
   }
 
   render() {
-    console.log(this.props);
     return(
       <div className="filters-panel">
         <div className="filters-panel__filter">

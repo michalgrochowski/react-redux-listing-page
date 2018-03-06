@@ -11,5 +11,4 @@ export default function(state = {}, action) {
       colorsVisible: false
     });
   }
-  return state;
 }
