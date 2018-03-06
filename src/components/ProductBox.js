@@ -5,7 +5,7 @@ const ProductBox = (props) => {
   const price = props.data.map( variant => {
     if (variant.isSelected === true) {
       return (
-        <p key={variant.price} className="product-box__price">{variant.price}</p>
+        <p key={variant.price} className="product-box__price">Price: {variant.price} $</p>
       )
     }
   })

@@ -6,17 +6,18 @@ body {
   font-family: 'Lato', sans-serif;
   height: 100vh;
   width: 100vw;
-  @include flex-center-column;
+  @include flex-column;
 }
 
 #root {
   height: 100%;
   width: 100%;
   @include flex-center-column;
+  justify-content: flex-start;
 }
 
 .main-container {
-  @include flex-center-column;
+  @include flex-column;
   height: 100%;
   width: 80%;
 }
@@ -26,6 +27,7 @@ body {
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
+  margin-top: 30px;
 }
 
 @import 'MainHeader';

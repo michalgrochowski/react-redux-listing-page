@@ -1,13 +1,18 @@
 import React from 'react';
 
 const DropdownCategory = (props) => {
-  console.log(props.isVisible);
   if (props.isVisible === true) {
     return (
-      <ul className="">
-        <li className="">Torebki</li>
-        <li className="">Paski</li>
-        <li className="">Portfele</li>
+      <ul className="filters-panel__dropdown">
+        <li className="filters-panel__option">
+          <button class="filters-panel__checbox"></button> Bags
+        </li>
+        <li className="filters-panel__option">
+          <button class="filters-panel__checbox"></button> Belts
+        </li>
+        <li className="filters-panel__option">
+          <button class="filters-panel__checbox"></button> Wallets
+        </li>
       </ul>
     )
   } else if (props.isVisible === false) {

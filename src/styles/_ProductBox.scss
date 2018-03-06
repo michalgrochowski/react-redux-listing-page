@@ -1,6 +1,8 @@
 .product-box {
   width: 30%;
   @include flex-center-column;
+  padding: 15px 10px;
+  border: 1px solid #e43e3e; 
 }
 
 .product-box__title {
@@ -20,5 +22,9 @@
 }
 
 .product-box__color-button {
-
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #e43e3e; 
+  margin: 0 10px;
 }

@@ -7,6 +7,7 @@ import { showCategories, showColors } from "../actions/index";
 
 // Components
 import DropdownCategory from '../components/DropdownCategory'
+import DropdownColors from '../components/DropdownColors'
 
 class Filters extends Component {
   constructor(props) {
@@ -28,13 +29,13 @@ class Filters extends Component {
     console.log(this.props);
     return(
       <div className="filters-panel">
-        <div className="filters-panel__category">
-          <button onClick={this.filterByCategory} className="">Category</button>
+        <div className="filters-panel__filter">
+          <button onClick={this.filterByCategory} className="filters-panel__button">Category</button>
           <DropdownCategory isVisible={this.props.categoriesVisible.categoriesVisible} />
         </div>
-        <div className="filters-panel__colors">
-          <button onClick={this.filterByColors} className="">Color</button>
-          <DropdownCategory isVisible={this.props.colorsVisible.colorsVisible} />
+        <div className="filters-panel__filter">
+          <button onClick={this.filterByColors} className="filters-panel__button">Color</button>
+          <DropdownColors isVisible={this.props.colorsVisible.colorsVisible} />
         </div>
       </div>
     )
