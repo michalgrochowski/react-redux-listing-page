@@ -1,14 +1,14 @@
-import { FILTER_ITEMS } from "../actions/index";
+import { SHOW_CATEGORY } from "../actions/index";
 
 export default function(state = {}, action) {
   switch (action.type) {
-    case FILTER_ITEMS:
+    case SHOW_CATEGORY:
       return Object.assign({}, ...state, {
-        options: action.isDropdownVisible
+        categoriesVisible: !state.categoriesVisible
       });
     default:
     return Object.assign({}, ...state, {
-      options: false
+      categoriesVisible: false
     });
   }
   return state;

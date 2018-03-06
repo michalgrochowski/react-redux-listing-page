@@ -1,8 +1,8 @@
 import React from 'react';
 
 export const FETCH_DATA = 'FETCH_DATA';
-export const FILTER_ITEMS = 'FILTER_ITEMS';
-export const INITIAL_FILTERS = 'INITIAL_FILTERS';
+export const SHOW_CATEGORY = 'SHOW_CATEGORY';
+export const SHOW_COLORS = 'SHOW_COLORS';
 
 export function fetchData() {
   return fetch('http://localhost:3000/data.json')
@@ -16,9 +16,14 @@ export function fetchData() {
     });
 };
 
-export function filterItems() {
+export function showCategories() {
   return {
-    type: FILTER_ITEMS,
-    isDropdownVisible: true
+    type: SHOW_CATEGORY
+  }
+};
+
+export function showColors() {
+  return {
+    type: SHOW_COLORS
   }
 };

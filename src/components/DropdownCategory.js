@@ -2,7 +2,7 @@ import React from 'react';
 
 const DropdownCategory = (props) => {
   console.log(props.isVisible);
-  if (props.isVisible.options === true) {
+  if (props.isVisible === true) {
     return (
       <ul className="">
         <li className="">Torebki</li>
@@ -10,7 +10,7 @@ const DropdownCategory = (props) => {
         <li className="">Portfele</li>
       </ul>
     )
-  } else if (props.isVisible.options === false) {
+  } else if (props.isVisible === false) {
     return (
       null
     )
