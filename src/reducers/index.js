@@ -9,9 +9,9 @@ const rootReducer = {
   data: data,
   categoriesVisible: showCategories,
   colorsVisible: showColors,
-  bagsChecked: bagsChecked,
-  beltsChecked: beltsChecked,
-  walletChecked: walletsChecked
+  areBagsChecked: bagsChecked,
+  areBeltsChecked: beltsChecked,
+  areWalletChecked: walletsChecked
 };
 
 export default rootReducer;

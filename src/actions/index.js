@@ -2,7 +2,7 @@ export const FETCH_DATA = 'FETCH_DATA';
 export const SHOW_CATEGORY = 'SHOW_CATEGORY';
 export const SHOW_COLORS = 'SHOW_COLORS';
 
-export const BAGS_CHECKED = 'SHOW_COLORS';
+export const BAGS_CHECKED = 'BAGS_CHECKED';
 export const BELTS_CHECKED = 'BELTS_CHECKED';
 export const WALLETS_CHECKED = 'WALLETS_CHECKED';
 

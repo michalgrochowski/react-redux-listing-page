@@ -5,26 +5,20 @@
       "photo": "/img/belt.jpg",
       "variants": [
         {
-          "color": "#000000",
+          "color": "Red",
           "price": "100",
           "photo": "/img/belt.jpg",
           "isSelected": true
         },
         {
-          "color": "#000000",
-          "price": "200",
+          "color": "Green",
+          "price": "100",
           "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
-          "color": "#000000",
-          "price": "200",
-          "photo": "/img/belt.jpg",
-          "isSelected": false
-        },
-        {
-          "color": "#000000",
-          "price": "200",
+          "color": "Black",
+          "price": "100",
           "photo": "/img/belt.jpg",
           "isSelected": false
         }
@@ -35,26 +29,20 @@
       "photo": "/img/wallet.jpg",
       "variants": [
         {
-          "color": "#000000",
+          "color": "Red",
           "price": "70",
           "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
-          "color": "#000000",
-          "price": "200",
+          "color": "Black",
+          "price": "70",
           "photo": "/img/belt.jpg",
           "isSelected": true
         },
         {
-          "color": "#000000",
-          "price": "200",
-          "photo": "/img/belt.jpg",
-          "isSelected": false
-        },
-        {
-          "color": "#000000",
-          "price": "200",
+          "color": "Yellow",
+          "price": "70",
           "photo": "/img/belt.jpg",
           "isSelected": false
         }
@@ -65,26 +53,26 @@
       "photo": "/img/bag.jpg",
       "variants": [
         {
-          "color": "#000000",
+          "color": "Blue",
           "price": "150",
           "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
-          "color": "#000000",
-          "price": "200",
+          "color": "Green",
+          "price": "150",
           "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
-          "color": "#000000",
-          "price": "200",
+          "color": "Yellow",
+          "price": "150",
           "photo": "/img/belt.jpg",
           "isSelected": false
         },
         {
-          "color": "#000000",
-          "price": "200",
+          "color": "Red",
+          "price": "150",
           "photo": "/img/belt.jpg",
           "isSelected": true
         }

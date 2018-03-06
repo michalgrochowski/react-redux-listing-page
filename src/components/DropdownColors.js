@@ -7,7 +7,7 @@ const DropdownColors = (props) => {
     return (
       <ul className="filters-panel__dropdown">
         <li className="filters-panel__option">
-          <CheckboxButton value="Red" />
+          <CheckboxButton value="Red"  />
         </li>
         <li className="filters-panel__option">
           <CheckboxButton value="Blue" />

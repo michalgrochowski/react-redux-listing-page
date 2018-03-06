@@ -4,11 +4,11 @@ export default function(state = {}, action) {
   switch (action.type) {
     case BAGS_CHECKED:
       return Object.assign({}, ...state, {
-        bagsChecked: !state.bagsChecked
+        areBagsChecked: !state.areBagsChecked
       });
     default:
     return Object.assign({}, ...state, {
-      bagsChecked: false
+      areBagsChecked: false
     });
   }
 }
